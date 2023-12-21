@@ -1,0 +1,648 @@
+@media (max-width: 1480px) {
+    body .main .section .container .wrp1 .wrapper-img .eth-gif {
+        top: 112px;
+        right: 556px;
+    }
+    body {
+        .header {
+            .navbar {
+                padding-top: 30px;
+            }
+        }
+        .main {
+            .section {
+                padding-top: 240px;
+                .container {
+                    .wrp1 {
+                        .wrapper-img {
+                            top: -200px;
+                        }
+                        .title {
+                            font-size: 30px;
+                        }
+                        .content-img {
+                            width: 600px;
+                        }
+                        .t-1 {
+                            max-width: 330px;
+                        }
+                        .t-2 {
+                            max-width: 352px;
+                        }
+                    }
+                    .wrp2 {
+                        padding-top: 32px;
+                        .subtitle {
+                            margin-left: 56px;
+                        }
+                        .btn {
+                            width: 400px;
+                            height: 100px;
+                            background: url(../img/logo-eth.png) no-repeat right -30px top -30px / 160px,
+                                url(../img/border-btn.gif) no-repeat center/cover;
+                            .title-btn {
+                                font-size: 36px;
+                            }
+                        }
+                    }
+                    .wrp3 {
+                        .title {
+                            font-size: 49.471px;
+                        }
+                        .contract-code {
+                            max-width: 964px;
+                            height: 95px;
+
+                            span {
+                                font-size: 32px;
+                            }
+                            .button-copy {
+                                width: 36px;
+                                height: 36px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1400px) {
+    body .main .section .container .wrp1 .wrapper-img .eth-gif {
+        top: 132px;
+        right: 466px;
+    }
+}
+@media (max-width: 1200px) {
+    body .main .section .container .wrp1 .wrapper-img .eth-gif {
+        top: 135px;
+        right: 376px;
+    }
+}
+@media (max-width: 1020px) {
+    .collapse:not(.show) {
+        display: block;
+    }
+    // body .main .section .container .wrp1 .wrapper-img .eth-gif {
+    //     top: 95px;
+    //     right: 266px;
+    // }
+    body .main .section .container .wrp1 .wrapper-img .eth-gif {
+        top: 95px;
+        right: 386px;
+    }
+    body {
+        .header {
+            .navbar {
+                padding-top: 30px;
+                .container {
+                    .collapse {
+                        .navbar-nav {
+                            flex-direction: initial;
+                        }
+                    }
+                    .container {
+                        .collapse {
+                            .navbar-nav {
+                                flex-direction: initial;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .main {
+            .section {
+                padding-top: 240px;
+                .container {
+                    .wrp1 {
+                        .wrapper-img {
+                            top: -200px;
+                        }
+                        .title {
+                            font-size: 24px;
+                        }
+                        .content-img {
+                            width: 500px;
+                        }
+                        .t-1 {
+                            max-width: 330px;
+                        }
+                        .t-2 {
+                            max-width: 352px;
+                        }
+                    }
+                    .wrp2 {
+                        padding-top: 32px;
+                        .subtitle {
+                            margin-left: 56px;
+                        }
+                        .btn {
+                            width: 400px;
+                            height: 100px;
+                            background: url(../img/logo-eth.png) no-repeat right -30px top -30px / 160px,
+                                url(../img/border-btn.gif) no-repeat center/cover;
+                            .title-btn {
+                                font-size: 36px;
+                            }
+                        }
+                    }
+                    .wrp3 {
+                        .title {
+                            font-size: 49.471px;
+                        }
+                        .contract-code {
+                            max-width: 964px;
+                            height: 95px;
+
+                            span {
+                                font-size: 32px;
+                            }
+                            .button-copy {
+                                width: 36px;
+                                height: 36px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .footer {
+            padding-bottom: 0;
+            .navbar {
+                .container {
+                    .collapse {
+                        .navbar-nav {
+                            flex-direction: initial;
+                            margin: 0 auto;
+                            display: block;
+                            justify-content: center;
+                            .nav-item {
+                                width: max-content;
+                                margin: 0 auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 992px) {
+    body .main .section .container .wrp1 .wrapper-img .eth-gif {
+        top: 95px;
+        right: 266px;
+    }
+}
+@media (max-width: 920px) {
+    html {
+        overflow-y: auto;
+    }
+    .eth {
+        display: none;
+    }
+    html,
+    body {
+        width: initial;
+        height: initial;
+        .main,
+        .section {
+            width: initial;
+            height: initial;
+        }
+    }
+    body {
+        .header {
+            .navbar {
+                padding-top: 30px;
+                max-width: 798px;
+                width: auto;
+                .container {
+                    .collapse {
+                        .navbar-nav {
+                            flex-direction: initial;
+                            .nav-item {
+                                margin: 0 25px;
+                            }
+                        }
+                    }
+                    .container {
+                        .collapse {
+                            .navbar-nav {
+                                flex-direction: initial;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .main {
+            .eth-static {
+                display: block;
+                position: absolute;
+            }
+
+            .eth-static1 {
+                left: 0;
+                top: -57px;
+            }
+            .eth-static2 {
+                right: 0;
+                top: 16px;
+            }
+            .eth-static3 {
+                left: 0;
+                top: 174px;
+            }
+            .eth-static4 {
+                right: 0;
+                top: 344px;
+            }
+            .eth-static5 {
+                left: 0;
+                top: 437px;
+            }
+            .bg-convol6 {
+                left: 0;
+            }
+            .bg-convol8 {
+                top: auto;
+                bottom: -219px;
+                right: 0;
+                left: auto;
+            }
+            .bg-convol10 {
+                left: 0;
+                top: auto;
+                bottom: -155px;
+            }
+            .bg-convol12 {
+                bottom: -200px;
+            }
+            .bg-convol13 {
+                bottom: 0;
+            }
+            .bg-convol14 {
+                bottom: -200px;
+            }
+
+            .section {
+                padding-top: 214px;
+                .container {
+                    .wrp1 {
+                        margin-top: -200px;
+                        display: grid;
+                        justify-content: center;
+                        text-align: center;
+                        .wrapper-img {
+                            order: 1;
+                            position: relative;
+                            top: 0;
+                            margin-bottom: -50px;
+                            .eth-gif {
+                                width: 40px;
+                                top: 160px;
+                                right: 150px;
+                            }
+                        }
+                        .title {
+                            font-size: 24px;
+                            margin: 0 auto;
+                        }
+                        .content-img {
+                            width: 500px;
+                        }
+                        .t-1 {
+                            max-width: 330px;
+                            order: 2;
+                        }
+                        .t-2 {
+                            max-width: 352px;
+                            order: 3;
+                        }
+                    }
+                    .wrp2 {
+                        padding-top: 32px;
+                        text-align: center;
+                        .subtitle {
+                            margin: 0 auto;
+                            margin-bottom: 20px;
+                        }
+                        .btn {
+                            width: 400px;
+                            height: 100px;
+                            background: url(../img/logo-eth.png) no-repeat right -30px top -30px / 160px,
+                                url(../img/border-btn.gif) no-repeat center/cover;
+                            .title-btn {
+                                font-size: 36px;
+                            }
+                        }
+                    }
+                    .wrp3 {
+                        .title {
+                            font-size: 49.471px;
+                        }
+                        .contract-code {
+                            max-width: 964px;
+                            height: 60px;
+
+                            span {
+                                font-size: 18px;
+                            }
+                            .button-copy {
+                                width: 36px;
+                                height: 36px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .footer {
+            position: relative;
+            z-index: 3;
+            padding-bottom: 0;
+            .eth-static {
+                position: absolute;
+                display: block;
+            }
+            .eth-static6 {
+                bottom: 0;
+                left: 0;
+            }
+            .eth-static7 {
+                bottom: 0;
+                right: 0;
+            }
+            .navbar {
+                .container {
+                    .collapse {
+                        .navbar-nav {
+                            flex-direction: initial;
+                            margin: 0 auto;
+                            display: block;
+                            justify-content: center;
+                            .nav-item {
+                                width: max-content;
+                                margin: 0 auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    body .main .section .container .wrp1 .wrapper-img .eth-gif {
+        width: 58px;
+        top: 110px;
+        right: 166px;
+    }
+}
+@media (max-width: 650px) {
+    body .main .section .container .wrp1 .wrapper-img .mouse-parallax {
+        display: none;
+    }
+    body .main .section .container .wrp1 .wrapper-img .eth-gif1 {
+        display: block;
+    }
+    body .main .bg-convol2 {
+        display: none;
+    }
+    body .main .section .container .wrp1 .title {
+        line-height: 37px;
+    }
+    body .main .section .container .wrp1 .t-1 {
+        margin: 20px auto;
+    }
+    body .main .bg-convol14 {
+        display: none;
+    }
+    body .header .navbar .container .collapse .navbar-nav .nav-item {
+        margin: 0 10px;
+        .nav-link {
+            font-size: 7vw;
+        }
+    }
+    body .footer .navbar .container .collapse .navbar-nav .nav-item {
+        margin: auto;
+        .nav-link {
+            font-size: 7vw;
+        }
+    }
+    body .main .bg-convol5 {
+        left: auto;
+        right: 42px;
+    }
+    body .header .navbar .container .collapse .navbar-nav .nav-item .img {
+        display: none;
+    }
+    body .main .section .container .wrp1 .content-img {
+        width: 320px;
+    }
+    body .main .section {
+        padding-top: 239px;
+    }
+    body .main .section .container .wrp1 .wrapper-img .eth-gif {
+        width: 20px;
+        top: 109px;
+        right: 116px;
+    }
+    body .main .section .container .wrp3 .contract-code {
+        position: relative;
+        z-index: 3;
+        height: 44px;
+    }
+    body .main .section .container .wrp3 .contract-code span {
+        font-size: 12px;
+    }
+    body .main .section .container .wrp3 .contract-code .button-copy {
+        width: 20px;
+        height: 20px;
+    }
+    body .main .section .container .wrp3 .title {
+        line-height: 48px;
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+    body .main .section .container .wrp2 .btn .title-btn {
+        font-size: 30px;
+        line-height: 15px;
+    }
+    body .main .section .container .wrp2 .btn .subtitle-btn {
+        font-size: 16px;
+        line-height: 15px;
+    }
+    body .main .section .container .wrp2 .btn {
+        width: 320px;
+        height: 85px;
+        background: url(../img/logo-eth.png) no-repeat right -30px top -19px/125px,
+            url(../img/border-btn.gif) no-repeat center/cover;
+    }
+
+    body .main .section .container .wrp2 .btn {
+        padding-right: 21px;
+        padding-top: 15px;
+    }
+    body .main .bg-convol5 {
+        top: auto;
+        bottom: -100px;
+    }
+    body .main .bg-convol7 {
+        display: none;
+    }
+    body .main .bg-convol9 {
+        top: 179px;
+        left: 0;
+    }
+    body .main .bg-convol12 {
+        display: none;
+    }
+    body .main .bg-convol2 {
+        bottom: -97px;
+        left: -30px;
+        rotate: 180deg;
+    }
+    body .main .section .container .wrp3 .contract-code .button-copy {
+        margin-left: 10px;
+    }
+    body .footer .navbar .container .collapse .navbar-nav .itm-2 .img {
+        display: none;
+    }
+    body .main .section .container .wrp3 {
+        display: none;
+    }
+    body .main .section .container .wrp4 {
+        display: block;
+        position: relative;
+        z-index: 5;
+        .contract-code {
+            background: url(../img/number2.gif) no-repeat center / cover;
+            span {
+                line-height: 14px;
+            }
+        }
+    }
+    body .main .section .container .wrp3 .contract-code {
+        height: 19vw;
+    }
+    body .main .section .container .wrp3 .contract-code span {
+        font-size: 5vw;
+        line-height: 5vw;
+    }
+    body .main .section .container .wrp3 .contract-code .button-copy {
+        width: 30px;
+        height: 30px;
+    }
+    body .main .section .container .wrp1 .wrapper-img .eth-gif {
+        width: 42px;
+        top: 77px;
+        right: 105px;
+    }
+}
+@media (max-width: 375px) {
+    body .main .section .container .wrp2 .btn {
+        width: 304px;
+        height: 77px;
+        background: url(../img/logo-eth.png) no-repeat right -30px top -19px/125px,
+            url(../img/border-btn.gif) no-repeat center/cover;
+    }
+    body .main .section .container .wrp3 .contract-code span {
+        font-size: 10px;
+    }
+    body .main .section .container .wrp3 .contract-code span {
+        font-size: 5vw;
+    }
+    body .main .section .container .wrp3 .contract-code .button-copy {
+        width: 30px;
+        height: 30px;
+    }
+    body .main .section .container .wrp3 .contract-code {
+        height: 67px;
+    }
+    body .main .section .container .wrp1 .wrapper-img .eth-gif {
+        width: 42px;
+        top: 77px;
+        left: 190px;
+        right: auto;
+    }
+}
+@media (max-height: 920px) and (min-width: 920px) {
+    body {
+        .header {
+        }
+        .main {
+            .section {
+                padding-top: 140px;
+                .container {
+                    .wrp1 {
+                        .wrapper-img {
+                            top: -177px;
+                        }
+                        .content-img {
+                            width: 600px;
+                        }
+                    }
+                    .wrp3 {
+                        margin-top: -40px;
+                    }
+                }
+            }
+        }
+        .footer {
+            padding-bottom: 12px;
+        }
+    }
+}
+@media (max-height: 800px) and (min-width: 920px) {
+    body {
+        height: auto;
+        .header {
+        }
+        .main {
+            .section {
+                .container {
+                    .wrp1 {
+                        .wrapper-img {
+                            top: -177px;
+                        }
+                        .content-img {
+                            width: 600px;
+                        }
+                    }
+                    .wrp3 {
+                        .title {
+                            font-size: 51.471px;
+                            margin-bottom: 0;
+                        }
+                        .contract-code {
+                            height: 125px;
+                        }
+                        margin-top: -40px;
+                    }
+                }
+            }
+        }
+        .footer {
+            padding-bottom: 12px;
+            position: relative;
+        }
+    }
+    body .main .section {
+        padding-top: 118px;
+    }
+    body .main .section .container .wrp1 .content-img {
+        width: 534px;
+    }
+    body .main .section .container .wrp1 .wrapper-img .eth-gif {
+        position: absolute;
+        width: 71px;
+        top: 93px;
+        right: 562px;
+    }
+    body .main .section .container .wrp1 .wrapper-img {
+        top: -128px;
+    }
+    body .main .section .container .wrp1 .title {
+        line-height: 48px;
+    }
+}
